@@ -20,16 +20,38 @@
 
 #container {
     /* border: 1px solid white; */
-    width: 500px;
+    /* width: 500px; */
     padding: 20px 0;
 }
 
+#loading {
+    position: absolute;
+    top: 10px;
+    left: 47%;
+    display: flex;
+    justify-content: center;
+}
+
 input {
-    width: 100%;
+    width: 50%;
     font-size: 20px;
     padding: 10px 10px;
     border-radius: 5px;
     border-color: rgb(14, 155, 148);
+}
+
+table {
+    margin-top: 50px;
+}
+
+
+tbody tr {
+    border-bottom: 1px solid white;
+}
+
+th {
+    border: 1px solid white;
+    padding: 2px 40px;
 }
 
 button {
