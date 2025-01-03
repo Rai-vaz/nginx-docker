@@ -7,7 +7,7 @@ function App() {
     const [inputValue, setInputValue] = useState(null)
     const [loading, setLoading] = useState(false)
     const [address, setAddress] = useState([])
-    console.log(address);
+
     
 
     function fetchAddress() {
@@ -40,6 +40,8 @@ function App() {
                 
                 />
             </div>
+
+            <img src="imagens/header.jpg" alt=""  style={{height:'200px'}}/>
 
             <div id='container'>
             
